@@ -8,4 +8,9 @@ describe("number_list", function(){
         assert.deepEqual(result, [1,2,3,4,5])
     });
 
+    it("should return [1, 2, 3, 4, 5, 6, 7] when number_list called with 7", function(){
+        var result = number_list(7);
+        assert.deepEqual(result, [1,2,3,4,5,6,7])
+    });
+
 });
