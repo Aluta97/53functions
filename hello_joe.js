@@ -1,10 +1,10 @@
-module.exports = function(name){
+module.exports = function(username){
 
-    if (name === "Joe"){
+    if (username === "Joe"){
       return "Hello!";
     }
-    if (name === "Bob"){
-        return "Hello!"
+     else if (username === "Bob"){
+        return "Hello!";
     }
     else {
       return "Hello, " + "Xolani!".toUpperCase();
